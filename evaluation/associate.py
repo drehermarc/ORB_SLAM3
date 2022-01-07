@@ -46,7 +46,7 @@ import os
 import numpy
 
 
-def read_file_list(filename,remove_bounds):
+def read_file_list(filename,remove_bounds=False):
     """
     Reads a trajectory from a text file. 
     
